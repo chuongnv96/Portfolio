@@ -102,4 +102,27 @@ $(document).ready(function () {
     vReveal.reveal(".contact__phone", { delay: 200 });
     vReveal.reveal(".contact__email", { delay: 500 });
     vReveal.reveal(".footer .column", { interval: 200 });
+
+    // Scrollspy
+    $(window).on("scroll", function () {
+        const sections = document.querySelectorAll("section");
+        sections.forEach(function (section) {
+            console.log({ section });
+            const sectionTop = section.offsetTop - 70;
+            const sectionHeight = section.clientHeight;
+            if (
+                window.pageYOffset >= sectionTop &&
+                window.pageYOffset < sectionTop + sectionHeight
+            ) {
+                const id = section.getAttribute("id");
+                const navLinks = document.querySelectorAll(".navbar a");
+                navLinks.forEach(function (link) {
+                    link.classList.remove("active");
+                    if (link.getAttribute("href") === `#${id}`) {
+                        link.classList.add("active");
+                    }
+                });
+            }
+        });
+    });
 });
