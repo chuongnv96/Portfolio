@@ -340,7 +340,7 @@ a {
     width: 50px;
     height: 50px;
     object-fit: cover;
-    border-radius: 3px;
+    border-radius: 50%;
     background-color: #ccc;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
     animation: zoom 2s ease alternate infinite;
@@ -467,10 +467,12 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    gap: 10px;
 }
 .project_content {
     min-width: 200px;
     padding: 20px 0;
+    overflow: hidden;
 }
 .project_prev,
 .project_next {
@@ -480,6 +482,7 @@ a {
 }
 .project__list {
     display: flex;
+    max-height: 412px;
     justify-content: space-between;
     overflow: hidden;
     flex-wrap: nowrap;
@@ -490,9 +493,10 @@ a {
     border-radius: 20px;
     flex-shrink: 0;
     padding: 0 5px;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
     overflow: hidden;
     background-clip: content-box;
+    overflow: hidden;
 }
 .project__item:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
@@ -641,6 +645,7 @@ a {
 }
 
 .footer .desc {
+    max-width: 200px;
     margin-top: 40px;
     font-weight: 400;
     font-size: 1.8rem;
