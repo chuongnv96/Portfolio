@@ -308,6 +308,7 @@ a {
 /* Main content */
 .skill {
     padding-top: 100px;
+    padding-bottom: 30px;
     background: var(--light-color);
     transition: 0.5s;
 }
@@ -357,7 +358,7 @@ a {
 }
 .skill__article:hover {
     box-shadow: 0 5px 18px var(--desc-color), 0 0px 25px var(--desc-color);
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
 }
 .skill__title {
     font-size: 2rem;

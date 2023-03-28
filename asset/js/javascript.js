@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // Keep mode
     var vCurrentMode = window.localStorage.getItem("mode");
     if (vCurrentMode == "night") {
         $(".banner").toggleClass("night");
@@ -8,6 +9,7 @@ $(document).ready(function () {
         $(".footer").toggleClass("night");
         $(".contact").toggleClass("night");
     }
+    // change mode
     $(".day-night").on("click", function () {
         $(".banner").toggleClass("night");
         $(".skill").toggleClass("night");
@@ -24,10 +26,12 @@ $(document).ready(function () {
         }
         window.localStorage.setItem("mode", vMode);
     });
+    // Side menu
     $("#toggle-menu").on("click", function () {
         $(".navbar__sub-menu").toggleClass("active");
     });
 
+    // Typing effects
     let typingText = new Typed("#name", {
         strings: ["Developer", "Chuong"],
         loop: true,
@@ -76,4 +80,26 @@ $(document).ready(function () {
             vProjectItems[i].style.transform = `translateX(-${vStransform}%)`;
         }
     });
+
+    // Scroll reveal
+    const vReveal = ScrollReveal({
+        origin: "top",
+        distance: "80px",
+        duration: 2000,
+        reset: true,
+    });
+    vReveal.reveal(".navbar");
+    vReveal.reveal(".banner .content");
+    vReveal.reveal(".sci", { delay: 500 });
+    vReveal.reveal(".skill__header");
+    vReveal.reveal(".skill__article", { interval: 400 });
+    vReveal.reveal(".qualification__header");
+    vReveal.reveal(".quanlitication__title", { delay: 500 });
+    vReveal.reveal(".qualification__article", { interval: 400 });
+    vReveal.reveal(".project__header");
+    vReveal.reveal(".project__list", { delay: 500 });
+    vReveal.reveal(".contact__header");
+    vReveal.reveal(".contact__phone", { delay: 200 });
+    vReveal.reveal(".contact__email", { delay: 500 });
+    vReveal.reveal(".footer .column", { interval: 200 });
 });
