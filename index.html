@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- External css -->
+        <link rel="stylesheet" href="./asset/css/reset.css" />
+        <link rel="stylesheet" href="./asset/css/grid.css" />
+        <link rel="stylesheet" href="./asset/css/style.css" />
+        <title>My Portfolio</title>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="banner">
+            <navbar class="navbar">
+                <div class="wide">
+                    <a href="#" class="navbar__logo"
+                        ><span>My</span>Portfolio</a
+                    >
+                    <ul>
+                        <li>
+                            <a class="navbar__link active" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="navbar__link" href="#skill">Skills</a>
+                        </li>
+                        <li>
+                            <a class="navbar__link" href="#qualification"
+                                >Qualifications</a
+                            >
+                        </li>
+                        <li>
+                            <a class="navbar__link" href="#project">Projects</a>
+                        </li>
+                        <li>
+                            <a class="navbar__link" href="#contact">Contact</a>
+                        </li>
+                        <div class="day-night">
+                            <ion-icon name="moon-outline"></ion-icon>
+                            <ion-icon name="sunny-outline"></ion-icon>
+                        </div>
+                    </ul>
+                    <div class="navbar__sub-menu">
+                        <a class="navbar__link active" href="#">Home</a>
+                        <a class="navbar__link" href="#skill">Skills</a>
+                        <a class="navbar__link" href="#qualification"
+                            >Qualifications</a
+                        >
+                        <a class="navbar__link" href="#project">Projects</a>
+                        <a class="navbar__link" href="#contact">Contact</a>
+                        <div class="day-night">
+                            <ion-icon name="moon-outline"></ion-icon>
+                            <ion-icon name="sunny-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <ion-icon
+                        id="toggle-menu"
+                        class="menu"
+                        name="menu-outline"
+                    ></ion-icon>
+                </div>
+            </navbar>
+            <div class="hero grid">
+                <div class="wide">
+                    <div class="content">
+                        <h3>Hello_</h3>
+                        <h2>I am <span id="name"></span></h2>
+                        <p>
+                            My target is to become a full-stack developer and
+                            proficiently use the learned technologies. I am
+                            willing to learn more other technologies to buld up
+                            my career.
+                        </p>
+                        <a class="btn-phone" href="tel:0365720496"
+                            ><ion-icon name="call-outline"></ion-icon> Hire
+                            me</a
+                        >
+                        <a
+                            href="mailto:nguyenvanchuong1782@gmail.com"
+                            class="btn-mail"
+                        >
+                            <ion-icon name="mail-unread-outline"></ion-icon>
+
+                            Mail to me
+                        </a>
+                    </div>
+                    <img
+                        src="./asset/img/colors.png"
+                        alt="color"
+                        class="colors"
+                    />
+                    <img
+                        src="./asset/img/avata.png"
+                        alt="avatar"
+                        class="avata"
+                    />
+                    <ul class="sci">
+                        <li>
+                            <a href="https://www.facebook.com/beelove.nguyen/"
+                                ><ion-icon name="logo-facebook"></ion-icon
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://join.skype.com/invite/keQrbV2NNLon"
+                                ><ion-icon name="logo-skype"></ion-icon
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.instagram.com/nguyenchuong1996/"
+                                ><ion-icon name="logo-instagram"></ion-icon
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://m.me/beelove.nguyen"
+                                ><ion-icon
+                                    name="chatbubble-outline"
+                                    title="messenger"
+                                ></ion-icon
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Main content -->
+        <main>
+            <section id="skill" class="skill">
+                <div class="wide">
+                    <!-- Header skill -->
+                    <div class="skill__header">
+                        <h2 class="skill__heading">Skills</h2>
+                        <p class="skill__desc">My favourite skills</p>
+                    </div>
+                    <!-- Body skill -->
+                    <div class="skill__body">
+                        <!-- left body -->
+                        <div class="skill__article">
+                            <h3 class="skill__title">Frontend</h3>
+                            <div class="skill__list">
+                                <!-- item -->
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/html.png"
+                                        alt="HTML"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">HTML</p>
+                                    <p class="skill__level">Intermediate</p>
+                                </div>
+
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/css.png"
+                                        alt="css"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">CSS</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/js.png"
+                                        alt="js"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">JAVASCRIPT</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/ajax.png"
+                                        alt="Ajax"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">AJAX</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/json.png"
+                                        alt="Json"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">JSON</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- middle body -->
+                        <div class="skill__article">
+                            <h3 class="skill__title">Backend</h3>
+                            <div class="skill__list">
+                                <!-- item -->
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/spring.png"
+                                        alt="Spring"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">SPRING BOOT</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/java.png"
+                                        alt="java"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">JAVA</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/mysql.png"
+                                        alt="sql"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">MYSQL</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/phpmyadmin.png"
+                                        alt="phpmyadmin"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">PHPMYADMIN</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- right body -->
+                        <div class="skill__article">
+                            <h3 class="skill__title">Frameworks</h3>
+                            <div class="skill__list">
+                                <!-- item -->
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/bootstrap.png"
+                                        alt="bootstrap"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">BOOTSTRAP</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/lte.png"
+                                        alt="LTE"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">ADMINLTE</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/jquery.jpg"
+                                        alt="jquery"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">JQUERY</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                                <div class="skill__item">
+                                    <img
+                                        src="./asset/img/awesomefont.png"
+                                        alt="awesomefont"
+                                        class="skill__img"
+                                    />
+                                    <p class="skill__name">AWESOME_FONT</p>
+                                    <p class="skill__level">Basic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="qualification" class="qualification">
+                <div class="wide">
+                    <div class="qualification__header">
+                        <h2 class="qualification__heading">Qualifications</h2>
+                        <p class="qualification__desc">
+                            Education & Experience
+                        </p>
+                    </div>
+                    <div class="qualification__body">
+                        <!-- Left -->
+                        <div class="qualification__content">
+                            <h3 class="quanlitication__title">
+                                <ion-icon name="school-outline"></ion-icon>
+                                Education
+                            </h3>
+                            <div class="qualification__article">
+                                <h4 class="quanlification__name">
+                                    MECHANICAL ENGINEERING
+                                </h4>
+                                <p class="qualification__shool">
+                                    Industrial University of Ho Chi Minh city
+                                </p>
+                                <p class="qualification__year">2014 - 2019</p>
+                            </div>
+                            <div class="qualification__article">
+                                <h4 class="quanlification__name">
+                                    FULL-STACK WEB DEVELOPER
+                                </h4>
+                                <p class="qualification__shool">
+                                    IronHack Viet Nam
+                                </p>
+                                <p class="qualification__year">2022 - 2023</p>
+                            </div>
+                        </div>
+                        <!-- right -->
+                        <div class="qualification__content">
+                            <h3 class="quanlitication__title">
+                                <ion-icon name="business-outline"></ion-icon>
+                                Experience
+                            </h3>
+                            <div class="qualification__article">
+                                <h4 class="quanlification__name">TRAINEE</h4>
+                                <p class="qualification__shool">
+                                    IronHack Viet Nam
+                                </p>
+                                <p class="qualification__year">2022 - 2023</p>
+                            </div>
+                            <div class="qualification__article">
+                                <h4 class="quanlification__name">TECHNICIAN</h4>
+                                <p class="qualification__shool">
+                                    Thuan Hien Company
+                                </p>
+                                <p class="qualification__year">2019 - 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="project" class="project">
+                <div class="wide">
+                    <!-- Header project -->
+                    <div class="project__header">
+                        <h2 class="project__heading">Projects</h2>
+                        <p class="project__desc">Recent projects</p>
+                    </div>
+                    <!-- Body project -->
+                    <div class="project__body">
+                        <div class="project_prev">
+                            <ion-icon name="chevron-back-outline"></ion-icon>
+                        </div>
+                        <div class="project_content">
+                            <div class="project__list">
+                                <article class="project__item">
+                                    <a
+                                        class="project__link"
+                                        href="https://chuongnv96.github.io/htmlcss-project-01"
+                                        ><img
+                                            src="./asset/img/project 1.png"
+                                            alt="project"
+                                            class="project__img"
+                                    /></a>
+                                    <div class="project__info">
+                                        <p class="project_desc">Landing Page</p>
+                                        <a
+                                            href="https://chuongnv96.github.io/htmlcss-project-01"
+                                            ><p
+                                                class="project_name line-clamp-1"
+                                            >
+                                                Real Estate Landing Page
+                                            </p></a
+                                        >
+                                        <a
+                                            class="project_view"
+                                            href="https://chuongnv96.github.io/htmlcss-project-01"
+                                            >See more
+                                            <ion-icon
+                                                name="arrow-forward-outline"
+                                            ></ion-icon
+                                        ></a>
+                                    </div>
+                                </article>
+                                <article class="project__item">
+                                    <a
+                                        class="project__link"
+                                        href="https://chuongnv96.github.io/project-02"
+                                        ><img
+                                            src="./asset/img/project 2.png"
+                                            alt="project"
+                                            class="project__img"
+                                    /></a>
+                                    <div class="project__info">
+                                        <p class="project_desc">Landing Page</p>
+                                        <a
+                                            href="https://chuongnv96.github.io/project-02"
+                                            ><p
+                                                class="project_name line-clamp-1"
+                                            >
+                                                Education Platform
+                                            </p></a
+                                        >
+                                        <a
+                                            class="project_view"
+                                            href="https://chuongnv96.github.io/project-02"
+                                            >See more
+                                            <ion-icon
+                                                name="arrow-forward-outline"
+                                            ></ion-icon
+                                        ></a>
+                                    </div>
+                                </article>
+                                <article class="project__item">
+                                    <a
+                                        class="project__link"
+                                        href="https://drive.google.com/file/d/1I3yJeghHPi_yTQkNSaJLwbTfcfqTN3b1/view?usp=sharing"
+                                        ><img
+                                            src="./asset/img/Shop24h.png"
+                                            alt="project"
+                                            class="project__img"
+                                    /></a>
+                                    <div class="project__info">
+                                        <p class="project_desc">Online store</p>
+                                        <a
+                                            href="https://drive.google.com/file/d/1I3yJeghHPi_yTQkNSaJLwbTfcfqTN3b1/view?usp=sharing"
+                                        >
+                                            <p
+                                                class="project_name line-clamp-1"
+                                            >
+                                                Shop24h - Technology Devices
+                                            </p>
+                                        </a>
+                                        <a
+                                            class="project_view"
+                                            href="https://drive.google.com/file/d/1I3yJeghHPi_yTQkNSaJLwbTfcfqTN3b1/view?usp=sharing"
+                                            >See more
+                                            <ion-icon
+                                                name="arrow-forward-outline"
+                                            ></ion-icon
+                                        ></a>
+                                    </div>
+                                </article>
+                                <article class="project__item">
+                                    <a
+                                        class="project__link"
+                                        href="https://drive.google.com/file/d/1ETAo48oKB_8mdmDZdrDK493SQ-nqmhAQ/view?usp=sharing"
+                                        ><img
+                                            src="./asset/img/realestateonline.png"
+                                            alt="project"
+                                            class="project__img"
+                                    /></a>
+                                    <div class="project__info">
+                                        <p class="project_desc">
+                                            Online exchange
+                                        </p>
+                                        <a
+                                            href="https://drive.google.com/file/d/1ETAo48oKB_8mdmDZdrDK493SQ-nqmhAQ/view?usp=sharing"
+                                        >
+                                            <p
+                                                class="project_name line-clamp-1"
+                                            >
+                                                Real Estate Online Platform
+                                            </p>
+                                        </a>
+                                        <a
+                                            class="project_view"
+                                            href="https://drive.google.com/file/d/1ETAo48oKB_8mdmDZdrDK493SQ-nqmhAQ/view?usp=sharing"
+                                            >See more
+                                            <ion-icon
+                                                name="arrow-forward-outline"
+                                            ></ion-icon
+                                        ></a>
+                                    </div>
+                                </article>
+                                <article class="project__item">
+                                    <a class="project__link" href="#!"
+                                        ><img
+                                            src="./asset/img/realestate.png"
+                                            alt="project"
+                                            class="project__img"
+                                    /></a>
+                                    <div class="project__info">
+                                        <p class="project_desc">Landing Page</p>
+                                        <p class="project_name">Real Estate</p>
+                                        <a class="project_view" href="#!"
+                                            >See more
+                                            <ion-icon
+                                                name="arrow-forward-outline"
+                                            ></ion-icon
+                                        ></a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="project_next">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact -->
+            <section id="contact" class="contact">
+                <div class="wide">
+                    <!-- Header contact -->
+                    <div class="contact__header">
+                        <h2 class="contact__heading">Contact</h2>
+                        <p class="contact__desc">Phone & Email</p>
+                    </div>
+                    <!-- Body contact -->
+                    <div class="contact__body">
+                        <a href="tel:0365720496" class="contact__phone">
+                            <ion-icon name="call-outline"></ion-icon>
+                            0365720496</a
+                        >
+                        <a
+                            href="mailto:nguyenvanchuong1782@gmail.com"
+                            class="contact__email"
+                            ><ion-icon name="mail-outline"></ion-icon>
+                            nguyenvanchuong1782@gmail.com</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="wide">
+                <div class="row row-footer">
+                    <!-- column 1 -->
+                    <div class="column col col-ss-6 col-sm-6 col-md-3">
+                        <h3 class="heading">Product</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">Listing</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Property</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Agents</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- column 2 -->
+                    <div class="column col col-ss-6 col-sm-6 col-md-3">
+                        <h3 class="heading">Resources</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">Our Homes</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Member Stories</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Video</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Free trial</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- column 3 -->
+                    <div class="column col col-ss-6 col-sm-6 col-md-3">
+                        <h3 class="heading">Company</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">Patnerships</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Terms of use</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Privacy</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- column 4 -->
+                    <div class="column col col-ss-6 col-sm-6 col-md-3">
+                        <h3 class="heading">Get in touch</h3>
+                        <p class="desc">
+                            You’ll find your next home, in any style you prefer.
+                        </p>
+                        <div class="social">
+                            <a href="https://www.facebook.com/beelove.nguyen/"
+                                ><ion-icon name="logo-facebook"></ion-icon
+                            ></a>
+                            <a href="https://join.skype.com/invite/keQrbV2NNLon"
+                                ><ion-icon name="logo-skype"></ion-icon
+                            ></a>
+                            <a
+                                href="https://www.instagram.com/nguyenchuong1996/"
+                                ><ion-icon name="logo-instagram"></ion-icon
+                            ></a>
+                            <a href="https://m.me/beelove.nguyen"
+                                ><ion-icon
+                                    name="chatbubble-outline"
+                                    title="messenger"
+                                ></ion-icon
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-bottom">
+                    <p class="copyright">Created by Nguyen Van Chuong</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Ionicons -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+        <!-- Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Typescript -->
+        <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+        <script src="./asset/js/javascript.js"></script>
+    </body>
+</html>
