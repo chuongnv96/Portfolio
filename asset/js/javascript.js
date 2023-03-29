@@ -112,13 +112,13 @@ $(document).ready(function () {
         reset: true,
     });
     vReveal.reveal(".navbar");
-    vReveal.reveal(".banner .content");
-    vReveal.reveal(".sci", { delay: 500 });
+    vReveal.reveal(".banner .hero__content");
+    vReveal.reveal(".hero__sci", { delay: 500 });
     vReveal.reveal(".skill__header");
-    vReveal.reveal(".skill__article", { interval: 400 });
+    vReveal.reveal(".skill__article", { interval: 200 });
     vReveal.reveal(".qualification__header");
-    vReveal.reveal(".quanlitication__title", { delay: 500 });
-    vReveal.reveal(".qualification__article", { interval: 400 });
+    vReveal.reveal(".quanlitication__title", { delay: 200 });
+    vReveal.reveal(".qualification__article", { interval: 200 });
     vReveal.reveal(".project__header");
     vReveal.reveal(".project__list", { delay: 500 });
     vReveal.reveal(".contact__header");

@@ -10,15 +10,11 @@
         <link rel="stylesheet" href="./asset/css/style.css" />
         <title>ChuongNguyen</title>
     </head>
-    <style>
-        body {
-            position: relative;
-        }
-    </style>
+
     <body>
         <!-- Header -->
         <header id="home" class="banner scroll">
-            <navbar class="navbar">
+            <nav class="navbar">
                 <div class="wide">
                     <a href="#" class="navbar__logo"
                         ><span>My</span>Portfolio</a
@@ -41,10 +37,10 @@
                         <li>
                             <a class="navbar__link" href="#contact">Contact</a>
                         </li>
-                        <div class="day-night">
+                        <li class="day-night">
                             <ion-icon name="moon-outline"></ion-icon>
                             <ion-icon name="sunny-outline"></ion-icon>
-                        </div>
+                        </li>
                     </ul>
                     <div class="navbar__sub-menu">
                         <a class="navbar__link active" href="#home">Home</a>
@@ -65,23 +61,24 @@
                         name="menu-outline"
                     ></ion-icon>
                 </div>
-            </navbar>
+            </nav>
             <section class="hero grid">
                 <div class="wide">
-                    <div class="content">
+                    <div class="hero__content">
                         <h3>Hello_</h3>
                         <h2>I am <span id="name"></span></h2>
                         <p>
-                            Becoming a full-stack developer and mastering the
-                            technologies learned is my ultimate goal. As a fast
-                            learner, I am willing to keep my skills up to date
-                            which helps the company also myself achieve big
-                            goals.
+                            As a front-end developer, I am currently using most
+                            of front-end technologies to build up websites.
+                            Besides, I can also build a back-end system for
+                            website using Java . So, my ultimate goal is
+                            becoming a full-stack developer. As a fast learner,
+                            I am willing to keep my skills up to date, which
+                            helps the company also myself achieve career goals.
                         </p>
-                        <a class="btn-phone" href="tel:0365720496"
-                            ><ion-icon name="call-outline"></ion-icon> Hire
-                            me</a
-                        >
+                        <a class="btn-phone" href="tel:0365720496">
+                            <ion-icon name="call-outline"></ion-icon> Hire me
+                        </a>
                         <a
                             href="mailto:nguyenvanchuong1782@gmail.com"
                             class="btn-mail"
@@ -101,35 +98,38 @@
                         alt="avatar"
                         class="avata"
                     />
-                    <ul class="sci">
+                    <ul class="hero__sci">
                         <li>
-                            <a href="https://gitlab.com/chuongnv2229"
-                                ><ion-icon name="logo-gitlab"></ion-icon></ion-icon
-                            ></a>
+                            <a href="https://gitlab.com/chuongnv2229">
+                                <ion-icon name="logo-gitlab"></ion-icon>
+                            </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/beelove.nguyen/"
-                                ><ion-icon name="logo-facebook"></ion-icon
-                            ></a>
+                            <a href="https://www.facebook.com/beelove.nguyen/">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
                         </li>
                         <li>
-                            <a href="https://join.skype.com/invite/keQrbV2NNLon"
-                                ><ion-icon name="logo-skype"></ion-icon
-                            ></a>
+                            <a
+                                href="https://join.skype.com/invite/keQrbV2NNLon"
+                            >
+                                <ion-icon name="logo-skype"></ion-icon>
+                            </a>
                         </li>
                         <li>
                             <a
                                 href="https://www.instagram.com/nguyenchuong1996/"
-                                ><ion-icon name="logo-instagram"></ion-icon
-                            ></a>
+                            >
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
                         </li>
                         <li>
-                            <a href="https://m.me/beelove.nguyen"
-                                ><ion-icon
+                            <a href="https://m.me/beelove.nguyen">
+                                <ion-icon
                                     name="chatbubble-outline"
                                     title="messenger"
-                                ></ion-icon
-                            ></a>
+                                ></ion-icon>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -137,11 +137,12 @@
         </header>
         <!-- Main content -->
         <main>
+            <!-- Skill -->
             <section id="skill" class="skill scroll">
                 <div class="wide">
                     <!-- Header skill -->
                     <div class="skill__header">
-                        <h2 class="skill__heading">Skills</h2>
+                        <h2 class="skill__heading dot__heading">Skills</h2>
                         <p class="skill__desc">My key job skills</p>
                     </div>
                     <!-- Body skill -->
@@ -289,10 +290,13 @@
                     </div>
                 </div>
             </section>
+            <!-- Qualification -->
             <section id="qualification" class="qualification scroll">
                 <div class="wide">
                     <div class="qualification__header">
-                        <h2 class="qualification__heading">Qualifications</h2>
+                        <h2 class="qualification__heading dot__heading">
+                            Qualifications
+                        </h2>
                         <p class="qualification__desc">
                             Education & Experience
                         </p>
@@ -311,7 +315,12 @@
                                 <p class="qualification__shool">
                                     Industrial University of Ho Chi Minh city
                                 </p>
-                                <p class="qualification__year">2014 - 2019</p>
+                                <p class="qualification__year">
+                                    08/2014 - 06/2019
+                                </p>
+                                <p class="qualification__shool">
+                                    Bachelor degree in mechanical engineer
+                                </p>
                             </div>
                             <div class="qualification__article">
                                 <h4 class="quanlification__name">
@@ -320,7 +329,26 @@
                                 <p class="qualification__shool">
                                     IronHack Viet Nam
                                 </p>
-                                <p class="qualification__year">2022 - 2023</p>
+                                <p class="qualification__year">
+                                    09/2022 - Current
+                                </p>
+                                <p class="qualification__shool">
+                                    Complete the course on March
+                                </p>
+                            </div>
+                            <div class="qualification__article">
+                                <h4 class="quanlification__name">
+                                    FRONT-END WEB DEVELOPER
+                                </h4>
+                                <p class="qualification__shool">
+                                    F8 - Fullstack
+                                </p>
+                                <p class="qualification__year">
+                                    12/2022 - Current
+                                </p>
+                                <p class="qualification__shool">
+                                    Get the cetification on April
+                                </p>
                             </div>
                         </div>
                         <!-- right -->
@@ -334,24 +362,75 @@
                                 <p class="qualification__shool">
                                     IronHack Viet Nam
                                 </p>
-                                <p class="qualification__year">2022 - 2023</p>
+                                <p class="qualification__year">
+                                    09/2022 - 03/2023
+                                </p>
+                                <ul class="qualification__details">
+                                    <li>
+                                        Delevop website using HTML, CSS,
+                                        Javascript, Jquery, etc.
+                                    </li>
+                                    <li>
+                                        Building API system using Java Spring
+                                        Boot, JWT, SQL, phpmyAdmin,etc.
+                                    </li>
+                                    <li>
+                                        Manage tasks, code files by Gitlab,
+                                        Trello.
+                                    </li>
+                                    <li>
+                                        Debug and fix problems while developing
+                                        by Postman, brower's console, etc.
+                                    </li>
+                                </ul>
                             </div>
                             <div class="qualification__article">
                                 <h4 class="quanlification__name">TECHNICIAN</h4>
                                 <p class="qualification__shool">
                                     Thuan Hien Company
                                 </p>
-                                <p class="qualification__year">2019 - 2023</p>
+                                <p class="qualification__year">
+                                    04/2019 - 02/2023
+                                </p>
+                                <ul class="qualification__details">
+                                    <li>
+                                        <p>
+                                            Responsible for Installing, fixing,
+                                            cablicating CNC machine.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Build programs that run on the
+                                            machine.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Train customers about operating,
+                                            safety conditions of machine.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Support foreign experts in
+                                            translating and troubleshooting.
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <!-- Project -->
             <section id="project" class="project scroll">
                 <div class="wide">
                     <!-- Header project -->
                     <div class="project__header">
-                        <h2 class="project__heading">Projects</h2>
+                        <h2 class="project__heading dot__heading">
+                            I have developed several stunning websites
+                        </h2>
                         <p class="project__desc">Recent projects</p>
                     </div>
                     <!-- Body project -->
@@ -365,7 +444,8 @@
                                     <a
                                         class="project__link"
                                         href="https://chuongnv96.github.io/htmlcss-project-01"
-                                        ><img
+                                    >
+                                        <img
                                             src="./asset/img/project 1.png"
                                             alt="project"
                                             class="project__img"
@@ -374,27 +454,29 @@
                                         <p class="project_desc">Landing Page</p>
                                         <a
                                             href="https://chuongnv96.github.io/htmlcss-project-01"
-                                            ><p
+                                        >
+                                            <h3
                                                 class="project_name line-clamp-1"
                                             >
                                                 Real Estate Landing Page
-                                            </p></a
-                                        >
+                                            </h3>
+                                        </a>
                                         <a
                                             class="project_view"
                                             href="https://chuongnv96.github.io/htmlcss-project-01"
                                             >See more
                                             <ion-icon
                                                 name="arrow-forward-outline"
-                                            ></ion-icon
-                                        ></a>
+                                            ></ion-icon>
+                                        </a>
                                     </div>
                                 </article>
                                 <article class="project__item">
                                     <a
                                         class="project__link"
                                         href="https://chuongnv96.github.io/project-02"
-                                        ><img
+                                    >
+                                        <img
                                             src="./asset/img/project 2.png"
                                             alt="project"
                                             class="project__img"
@@ -403,20 +485,21 @@
                                         <p class="project_desc">Landing Page</p>
                                         <a
                                             href="https://chuongnv96.github.io/project-02"
-                                            ><p
+                                        >
+                                            <h3
                                                 class="project_name line-clamp-1"
                                             >
                                                 Education Platform
-                                            </p></a
-                                        >
+                                            </h3>
+                                        </a>
                                         <a
                                             class="project_view"
                                             href="https://chuongnv96.github.io/project-02"
                                             >See more
                                             <ion-icon
                                                 name="arrow-forward-outline"
-                                            ></ion-icon
-                                        ></a>
+                                            ></ion-icon>
+                                        </a>
                                     </div>
                                 </article>
                                 <article class="project__item">
@@ -433,11 +516,11 @@
                                         <a
                                             href="https://drive.google.com/file/d/1I3yJeghHPi_yTQkNSaJLwbTfcfqTN3b1/view?usp=sharing"
                                         >
-                                            <p
+                                            <h3
                                                 class="project_name line-clamp-1"
                                             >
                                                 Shop24h - Technology Devices
-                                            </p>
+                                            </h3>
                                         </a>
                                         <a
                                             class="project_view"
@@ -445,8 +528,8 @@
                                             >See more
                                             <ion-icon
                                                 name="arrow-forward-outline"
-                                            ></ion-icon
-                                        ></a>
+                                            ></ion-icon>
+                                        </a>
                                     </div>
                                 </article>
                                 <article class="project__item">
@@ -465,11 +548,11 @@
                                         <a
                                             href="https://drive.google.com/file/d/1ETAo48oKB_8mdmDZdrDK493SQ-nqmhAQ/view?usp=sharing"
                                         >
-                                            <p
+                                            <h3
                                                 class="project_name line-clamp-1"
                                             >
                                                 Real Estate Online Platform
-                                            </p>
+                                            </h3>
                                         </a>
                                         <a
                                             class="project_view"
@@ -477,8 +560,8 @@
                                             >See more
                                             <ion-icon
                                                 name="arrow-forward-outline"
-                                            ></ion-icon
-                                        ></a>
+                                            ></ion-icon>
+                                        </a>
                                     </div>
                                 </article>
                                 <article class="project__item">
@@ -495,9 +578,11 @@
                                         <a
                                             href="https://chuongnv96.github.io/pizza365/"
                                         >
-                                            <p class="project_name">
+                                            <h3
+                                                class="project_name line-clamp-1"
+                                            >
                                                 Shop pizza online
-                                            </p>
+                                            </h3>
                                         </a>
                                         <a
                                             class="project_view"
@@ -505,8 +590,8 @@
                                             >See more
                                             <ion-icon
                                                 name="arrow-forward-outline"
-                                            ></ion-icon
-                                        ></a>
+                                            ></ion-icon>
+                                        </a>
                                     </div>
                                 </article>
                             </div>
@@ -522,7 +607,9 @@
                 <div class="wide">
                     <!-- Header contact -->
                     <div class="contact__header">
-                        <h2 class="contact__heading">Contact me</h2>
+                        <h2 class="contact__heading dot__heading">
+                            Contact me
+                        </h2>
                         <p class="contact__desc">
                             I am ready and looking forward to a new challenge
                             and great opportunity in the near future!
@@ -532,14 +619,15 @@
                     <div class="contact__body">
                         <a href="tel:0365720496" class="contact__phone">
                             <ion-icon name="call-outline"></ion-icon>
-                            0365720496</a
-                        >
+                            0365720496
+                        </a>
                         <a
                             href="mailto:nguyenvanchuong1782@gmail.com"
                             class="contact__email"
-                            ><ion-icon name="mail-outline"></ion-icon>
-                            nguyenvanchuong1782@gmail.com</a
                         >
+                            <ion-icon name="mail-outline"></ion-icon>
+                            nguyenvanchuong1782@gmail.com
+                        </a>
                     </div>
                 </div>
             </section>
@@ -629,25 +717,28 @@
                             check out my social media accounts below.
                         </p>
                         <div class="social">
-                            <a href="https://gitlab.com/chuongnv2229"
-                                ><ion-icon name="logo-gitlab"></ion-icon></ion-icon
-                            ></a>
-                            <a href="https://www.facebook.com/beelove.nguyen/"
-                                ><ion-icon name="logo-facebook"></ion-icon
-                            ></a>
-                            <a href="https://join.skype.com/invite/keQrbV2NNLon"
-                                ><ion-icon name="logo-skype"></ion-icon
-                            ></a>
+                            <a href="https://gitlab.com/chuongnv2229">
+                                <ion-icon name="logo-gitlab"></ion-icon>
+                            </a>
+                            <a href="https://www.facebook.com/beelove.nguyen/">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                            <a
+                                href="https://join.skype.com/invite/keQrbV2NNLon"
+                            >
+                                <ion-icon name="logo-skype"></ion-icon>
+                            </a>
                             <a
                                 href="https://www.instagram.com/nguyenchuong1996/"
-                                ><ion-icon name="logo-instagram"></ion-icon
-                            ></a>
-                            <a href="https://m.me/beelove.nguyen"
-                                ><ion-icon
+                            >
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                            <a href="https://m.me/beelove.nguyen">
+                                <ion-icon
                                     name="chatbubble-outline"
                                     title="messenger"
-                                ></ion-icon
-                            ></a>
+                                ></ion-icon>
+                            </a>
                         </div>
                     </div>
                 </div>
