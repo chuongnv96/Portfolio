@@ -39,15 +39,6 @@ $(document).ready(function () {
         backSpeed: 60,
         backDelay: 3000,
     });
-
-    // navbar active
-    // $(document).on("click", ".navbar__link", function () {
-    //     $(".navbar__link").removeClass("active");
-    //     var vNavigateId = $(this).attr("href");
-    //     var vActiveAnchors = $(`a[href$='${vNavigateId}']`).toggleClass(
-    //         "active"
-    //     );
-    // });
     // Auto scroll blogs
     const vNextItem = setInterval(function () {
         let vFirstProject = document.querySelector(".project__item");
